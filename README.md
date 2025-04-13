@@ -20,6 +20,9 @@ To deploy a stack:
 cd docker/<stack-name>
 docker-compose up -d
 ```
+
+---
+
 ## 📂 Services
 | Stack               | Description                                |
 | :---                | :---:                                      |
