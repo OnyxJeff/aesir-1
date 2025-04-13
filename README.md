@@ -22,7 +22,7 @@ docker-compose up -d
 ```
 ## 📂 Services
 | Stack               | Description                                |
-| :---:               | :---:                                      |
+| :---                | :---:                                      |
 | darr-stack          | Media automation with Sonarr, Radarr, etc. |
 | nginx-proxy-manager |	Reverse proxy with SSL & GUI               |
 | netbootxyz          | PXE boot server                            |
