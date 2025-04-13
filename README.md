@@ -21,11 +21,12 @@ cd docker/<stack-name>
 docker-compose up -d
 ```
 ## 📂 Services
-| Stack | Description |
-| darr-stack | Media automation with Sonarr, Radarr, etc. |
-| nginx-proxy-manager |	Reverse proxy with SSL & GUI |
-| netbootxyz | PXE boot server |
-| portainer	| Docker container manager |
+| Stack               | Description                                |
+| :---:               | :---:                                      |
+| darr-stack          | Media automation with Sonarr, Radarr, etc. |
+| nginx-proxy-manager |	Reverse proxy with SSL & GUI               |
+| netbootxyz          | PXE boot server                            |
+| portainer	          | Docker container manager                   |
 
 ---
 
@@ -39,5 +40,5 @@ This will tarball volumes for media apps, proxy configs, and Portainer data.
 
 ---
 
-## 📬 Maintained By
+📬 Maintained By
 Jeff M. • [@OnyxJeff](https://github.com/onyxjeff)
