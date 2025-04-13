@@ -5,10 +5,10 @@
 
 **Aesir-1** is my homelab's command center—an Intel NUC running **Proxmox**, managing my container infrastructure via **Portainer**. It powers essential services like:
 
-- `*-darr` stack (Sonarr, Radarr, etc.)
+- `*-darr stack` (Sonarr, Radarr, etc.)
 - `netboot.xyz` for PXE booting
 - `nginx-proxy-manager` for reverse proxy and SSL management
-- `portainer` itself (because why not manage the manager)
+- `portainer` (because why not manage the manager)
 
 ---
 
