@@ -8,28 +8,29 @@
 - `*-darr stack` (Sonarr, Radarr, etc.)
 - `netboot.xyz` for PXE booting
 - `nginx-proxy-manager` for reverse proxy and SSL management
-- `portainer` (because why not manage the manager)
 
 ---
 
 ## 🚀 Deployment
 
+After installing Proxmox on this node this should be installed into a Linux VM or LXC container.
+
 To deploy a stack:
 
 ```bash
-cd docker/<stack-name>
+cd docker/"stack-name"
 docker-compose up -d
 ```
 
 ---
 
 ## 📂 Services
+
 | Stack               | Description                                |
 | :---                | :---:                                      |
 | darr-stack          | Media automation with Sonarr, Radarr, etc. |
 | nginx-proxy-manager |	Reverse proxy with SSL & GUI               |
 | netbootxyz          | PXE boot server                            |
-| portainer	          | Docker container manager                   |
 
 ---
 
