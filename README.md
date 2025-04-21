@@ -11,6 +11,18 @@
 
 ---
 
+## 📁 Repo Structure
+
+```text
+aesir-1/
+├── .github/workflows/    # CI for YAML validation
+├── docker/               # YAML-based -darr stack applications
+├── scripts/              # Shared/reusable automation logic
+└── README.md             # You're reading it!
+```
+
+---
+
 ## 🚀 Deployment
 
 After installing Proxmox on this node this should be installed into a Linux VM or LXC container.
