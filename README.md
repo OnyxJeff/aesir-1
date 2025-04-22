@@ -25,7 +25,7 @@ aesir-1/
 
 ## 🚀 Deployment
 
-After installing Proxmox on this node this should be installed into a Linux VM or LXC container.
+After installing Proxmox on this node this should be installed into a Linux VM or Ubuntu LXC container.
 
 To deploy a stack:
 
@@ -36,7 +36,7 @@ docker-compose up -d
 
 ---
 
-## 📂 Services
+## 🧰 Services
 
 | Stack               | Description                                |
 | :---                | :---:                                      |
