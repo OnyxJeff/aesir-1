@@ -1,6 +1,6 @@
 # Ignore backups, environment files, and runtime cruft
 *.tar.gz
-.env
+*.env
 logs/
 tmp/
 *.pid
